@@ -1,0 +1,24 @@
+_________________________________________________________________
+2021-08-01 18:14:57.088499: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profiler session started.
+Epoch 1/20
+WARNING:tensorflow:AutoGraph could not transform <function loss_mse_warmup at 0x00000150CE913280> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: module 'gast' has no attribute 'Index'
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING: AutoGraph could not transform <function loss_mse_warmup at 0x00000150CE913280> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: module 'gast' has no attribute 'Index'
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+  1/100 [..............................] - ETA: 0s - loss: 0.24812021-08-01 18:15:00.294128: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profiler session started.
+WARNING:tensorflow:From C:\DEVEL\DEVEL_APPS\anaconda3\envs\DataAnalysis\lib\site-packages\tensorflow\python\ops\summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+2021-08-01 18:15:01.173960: I tensorflow/core/profiler/rpc/client/save_profile.cc:176] Creating directory: ./23_logs/train\plugins\profile\2021_08_01_09_15_01
+2021-08-01 18:15:01.199658: I tensorflow/core/profiler/rpc/client/save_profile.cc:182] Dumped gzipped tool data for trace.json.gz to ./23_logs/train\plugins\profile\2021_08_01_09_15_01\ISPANOS.trace.json.gz
+2021-08-01 18:15:01.232071: I tensorflow/core/profiler/rpc/client/save_profile.cc:176] Creating directory: ./23_logs/train\plugins\profile\2021_08_01_09_15_01
+2021-08-01 18:15:01.235638: I tensorflow/core/profiler/rpc/client/save_profile.cc:182] Dumped gzipped tool data for memory_profile.json.gz to ./23_logs/train\plugins\profile\2021_08_01_09_15_01\ISPANOS.memory_profile.json.gz
+2021-08-01 18:15:01.247171: I tensorflow/python/profiler/internal/profiler_wrapper.cc:111] Creating directory: ./23_logs/train\plugins\profile\2021_08_01_09_15_01Dumped tool data for xplane.pb to ./23_logs/train\plugins\profile\2021_08_01_09_15_01\ISPANOS.xplane.pb
+Dumped tool data for overview_page.pb to ./23_logs/train\plugins\profile\2021_08_01_09_15_01\ISPANOS.overview_page.pb
+Dumped tool data for input_pipeline.pb to ./23_logs/train\plugins\profile\2021_08_01_09_15_01\ISPANOS.input_pipeline.pb
+Dumped tool data for tensorflow_stats.pb to ./23_logs/train\plugins\profile\2021_08_01_09_15_01\ISPANOS.tensorflow_stats.pb
+Dumped tool data for kernel_stats.pb to ./23_logs/train\plugins\profile\2021_08_01_09_15_01\ISPANOS.kernel_stats.pb
